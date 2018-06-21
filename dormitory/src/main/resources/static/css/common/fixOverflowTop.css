@@ -1,0 +1,10 @@
+.layui-layout-admin .layui-header {
+    position: fixed;
+    width: 100%;
+}
+
+.layui-layout-admin .layui-body {
+    position: relative;
+    margin-right: 200px;
+    z-index: 0;
+}

@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://x.x.x.x:3306/dormitoryDB?useSSL=true
+    username: user
+    password: User
+  jpa:
+#    hibernate:
+#      ddl-auto: update
+    show-sql: true
+#  thymeleaf:
+#    cache: false
+  mvc:
+    favicon:
+      enabled: false
+  freemarker:
+    cache: false
+  redis:
+    password: klee
+    port: 6379
+    host: x.x.x.x
+
+server:
+  servlet:
+    context-path: /dorm
