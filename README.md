@@ -1,4 +1,4 @@
-# mSpringBoot
+# SpringBoot
 
 基于SpringBoot的学生宿舍管理系统
 
